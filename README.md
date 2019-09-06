@@ -43,7 +43,7 @@ I'll include those patchs in the future releases ( if exists )
 If you want to use this window manger with PCs, you have
 to check whether your keyboard can generate the correct
 keycodes or not with xev or some other utilities when you
-press more than 3 keys at the same time. As far as I know,
+press 3 keys at the same time. As far as I know,
 most of the cheap keyboards can not generate the correct
 keycodes... But kwm seems to work fine with the most of 
 the notebook PCs and workstations.
