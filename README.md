@@ -3,7 +3,7 @@ KWM Keyboard Window Manager
 
 ------- What is kwm? -------
 kwm is an window manager for X11.  See manual pages for
-detail. This program wass originally made by Prof.Kuno at
+detail. This program was originally made by Prof.Kuno at
 Tsukuba University. (Please read the file "README.1988")
 
 You can freely re-distribute this software.  See 'NOTICE'
