@@ -1,0 +1,31 @@
+Kwm version 0.2-beta
+
+Kwm is an window manager for X11.  See manual pages for
+detail.
+
+You can freely re-distribute this software.  See 'NOTICE'
+about this issue.
+
+This version is only a preliminary release, so will have
+many bugs.  One of the 'known' bug is that kwm sometimes
+failes to handle deleted windows properly.  Also see
+'WARNING' section of the manual pages.
+
+You can contact me by the following address, but also
+note that I am not always willing to remove the bugs
+you find (excuse me!) because kwm is only a 'side effect'
+of my research work.  But any suggestions about its
+functionarity or way of fixing its bugs are welcome.
+Thank you.
+
+						Yasushi Kuno
+
+			     University of Tsukuba at Ootsuka,
+			Graduate School of Systems Management
+					    kuno@sm.uto.junet
+				  (not valid until April 1989)
+
+					   (Before April 1989)
+				Tokyo Institute of Technology
+			    Depertment of Information Science
+					 kuno@is.titech.junet

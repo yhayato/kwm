@@ -1,0 +1,107 @@
+.TH KWM 1 "Aug 11, 1999"
+.SH NAME
+kwm \- a "keyboard" window manager for X11
+
+.SH SYNOPSIS
+kwm
+
+.SH DESCRIPTION
+Kwm is a window manager for X11.  Unlike other window managers,
+kwm is totally controllable through the keyboard, so that you
+do not have to flip your right hand between KB and mouse.  Upon
+startup, kwm prepares a small window (called kwm-window) and
+iconifies it.  When you press
+.B shift-control-w
+the kwm-window is opened, and you will see list of windows in
+it.  In this state, you have various command.  See below.
+
+.SH KWM-WINDOW MODE COMMANDS
+.TP
+.TP
+.B n
+Chooses 'next' window in the list as the target window.  Target
+window's name is displayed in reverse video in the kwm-window.
+.TP
+.B p
+Chooses 'previous' window in the list as the target window.
+.TP
+.B s
+'Selects' the target window. Athe same time, the selected window 
+will be raised and the focus is moved onto that window.
+.TP
+.B f
+Raises the target window.
+.TP
+.B F
+Lowers the target window.
+.TP
+.B i
+Iconifies the target window.
+.TP
+.B I
+De-iconifies the target window.
+.TP
+.B m
+Moves the target window.  In the 'move' mode, each press of 
+key n, p, b, f, h, j, k, l moves the target window by the 
+'appropriate' amount.  To exit the 'move' mode, press return 
+or ^M.  Use shft, control, or meta to control the amount of 
+each move.
+.B M
+Same as 'm'.
+.TP
+.B r
+Resizes the target window.  In the 'resize' mode, each press of
+key n, p, b, f, h, j, k, l moves the lower-right corner of the 
+target window by the 'appropriate' amount. To exit 'resize' 
+mode, press return or ^M.
+.TP
+.B 0-9
+Assignes id to the target window.  Hereafter, the target window
+can be specified quickly via shortcut.
+
+.SH SHORTCUT COMMANDS
+It is tedious to open kwm-window each time, so several shortcut
+commands, wchich can be invoked via shift-control-X (X
+represents an alphanmeric key) is prepeared.
+.TP
+.B 0-9
+The window with specified id is selected and also becomes
+the target window. If the window has been selected or iconified,
+the window will be raised.
+.TP
+.B d
+Lowers the current window.
+.TP
+.B i
+Iconifies the current window.
+.TP
+.B f,u
+Raises the current window.
+.TP
+.B m
+Moves the current window .
+.TP
+.B r
+Resizes the current window.
+.TP
+.B ' '(space)
+Sets the focus to the window in which the mouse pointer sits.
+.TP
+.B \
+reset kwm. Rescan the windows and initialize the shortcut-number
+assignments.
+.TP
+
+.SH WARNING
+This is a 'beta' version, so will have many bugs.  Especially
+kwm might set input focus in a wrong manner and get stuck.
+When you are stuck, try pressing shift-key and any two of
+the mouse buttons simalteniously.  This shall cause emergency
+exit, i.e. all windows are de-iconified and input focus is
+set to normal (pointer root) mode.
+
+.SH AUTHOR
+Copyright (C) 1988 Yasushi Kuno
+              1993-1996 by Soh `Yamagata' Suzuki
+              1995-2014 by Yoshinari Hayato
